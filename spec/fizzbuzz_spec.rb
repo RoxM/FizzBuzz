@@ -40,4 +40,12 @@ context 'While Playing the game, return FizzBuzz' do
  	end
 end
 
+context "FullGame" do	
+	it 'print to 100' do
+		100.times do |number| 
+			puts @fizzbuzzgame.game(number + 1)
+		end
+	end
+end
+
 end
