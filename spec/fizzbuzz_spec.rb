@@ -35,6 +35,9 @@ context 'While Playing the game, return FizzBuzz' do
  	it 'one, return 1' do	
  		expect(@fizzbuzzgame.game(1)).to eq(1)
  	end
+ 	it 'fiveteen, return fizzbuzz' do	
+ 		expect(@fizzbuzzgame.game(15)).to eq('FizzBuzz')
+ 	end
 end
 
 end
