@@ -25,5 +25,10 @@ context 'Given a number, return FALSE because is NOT divisible by' do
  	end
 end
 
+context 'While Playing the game, return FizzBuzz' do
+	it 'three, return fizz' do	
+ 		expect(@fizzbuzzgame.game(3)).to eq('Fizz')
+ 	end
+end
 
 end
